@@ -85,22 +85,14 @@ p {
     padding: 20px;
 }
 
-/*
-#clearfloat {
-    clear: both;
-}
-
-.clearfloat::after {
-    content: "";
-    display: block;
-    clear: both;
-}
-*/
-
 .clearfix::after {
     content: "";
     clear: both;
     display: table;
+}
+
+#rowheight {
+    margin-top: 30pt;
 }
 
 #footer {
